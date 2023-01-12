@@ -4,7 +4,7 @@ seeds :
   - name : employees
     description : manual map of employees to cutomer
     columns :
-      - name : employees_id
+      - name : employee_id
         tests:
           - unique
           - not_null
