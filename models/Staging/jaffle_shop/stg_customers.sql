@@ -5,7 +5,7 @@ with customers as (
         first_name,
         last_name
 
-    from {{ source('jaffle_shop','DIM_CUSTOMER') }}
+    from {{ source('jaffle_shop','customers') }}
 )
 
 select * from customers 
